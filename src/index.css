@@ -1,0 +1,44 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import './assets/fonts/custom-fonts.css';
+
+@layer components {
+  .blue-gradient:hover {
+    background: linear-gradient(290deg, #419ef1 0%, #9bd0ff 107.89%);
+  }
+  .blue-gradient-full {
+    background: linear-gradient(290deg, #419ef1 0%, #9bd0ff 107.89%);
+  }
+
+  .orange-gradient:hover {background: linear-gradient(90deg,#FFDF48  0%, #FFC107 107.89%)
+}}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+
+/* auth shadow */
+.auth-box-shadow {
+  box-shadow: 3px 8px 14px 0px rgba(136, 198, 253, 0.19);
+}
+
+input:hover,
+input:focus,
+input:active {
+  outline-color: #cce4fb;
+  outline-width: '1px';
+}
